@@ -1,0 +1,125 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2C3E50;
+    margin: 0;
+    
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.logo {
+    color: #ECF0F1;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.toggle-range {
+    display: flex;
+    align-items: center;
+    color: #ECF0F1;
+    font-size: 0.9em;
+}
+
+.range-toggle label {
+    margin-right: 10px;
+}
+
+#range-switch{
+    width: 50px;
+    margin-top: -10px;
+}
+
+
+
+.calculator {
+    width: 300px;
+    background-color: #34495E;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+#display {
+    background-color: #1C2833;
+     color: #ECF0F1;
+     font-size: 20px;
+     text-align: right;
+     padding: 20px;
+     border-radius: 5px;
+     margin-bottom: 10px;
+   
+}
+
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+   
+}
+
+
+button {
+    background-color: #BDC3C7;
+    border: 1px solid whitesmoke;
+    font-size: 20px;
+    padding: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+    margin: 5px; 
+   
+}
+.buttons2{
+    width: 100%;  
+    display: flex;
+  }
+  .btn1{
+      width: 50%;
+      background-color: #f44336;
+     
+  }
+  .btn{
+    background-color: #2196f3;
+  }
+  
+
+button:hover {
+    background-color: aqua;
+}
+
+
+button:nth-child(4) {
+    background-color: #2196f3;
+    color: white;
+}
+
+button:nth-child(17) {
+    background-color: #2196f3;
+    color: white;
+}
+
+.nob {
+    font-size: 12px;
+    color: white;
+}
+
+.t-ggle {
+    display: grid;
+    margin-top: -20px;
+}
+.noob {
+    padding-right: 9px;
+    padding-left: 5px;
+}
+
+label {
+    padding-right: 15px;
+    font-size: 12px;
+}
